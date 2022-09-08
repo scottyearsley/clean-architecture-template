@@ -12,6 +12,12 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="Controllers" />
+        <Folder Include="Mappers" />
+        <Folder Include="Dtos" />
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\Zestware.Application\Zestware.Application.csproj" />
       <ProjectReference Include="..\Zestware.Infrastructure\Zestware.Infrastructure.csproj" />
     </ItemGroup>

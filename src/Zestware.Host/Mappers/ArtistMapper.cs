@@ -9,8 +9,9 @@ public class ArtistMapper
         return new Dtos.Artist
         {
             Id = artist.Id,
+            Name = artist.Name,
             Overview = artist.Overview,
-            Formed = artist.Formed,
+            Formed = artist.Formed.ToString("O"),
             Location = artist.Location
         };
     }

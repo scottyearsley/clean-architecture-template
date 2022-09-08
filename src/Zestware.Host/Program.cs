@@ -1,4 +1,5 @@
 using Zestware.Application;
+using Zestware.Host.Mappers;
 using Zestware.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Mappers
+builder.Services.AddSingleton<ArtistMapper>();
 
 // App specific services
 builder.Services.AddApplication();

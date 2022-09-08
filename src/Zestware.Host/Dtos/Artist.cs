@@ -8,7 +8,7 @@ public class Artist
 
     public string? Overview { get; set; }
 
-    public DateOnly? Formed { get; set; }
+    public string? Formed { get; set; }
 
     public string? Location { get; set; }
 }

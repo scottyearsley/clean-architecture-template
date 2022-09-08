@@ -7,13 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Albums\Commands" />
-      <Folder Include="Albums\Queries" />
-      <Folder Include="Albums\Validations" />
-      <Folder Include="Common\Interfaces" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Zestware.Domain\Zestware.Domain.csproj" />
     </ItemGroup>
 
@@ -22,6 +15,7 @@
       <PackageReference Include="MediatR" Version="10.0.1" />
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
     </ItemGroup>
 
 </Project>

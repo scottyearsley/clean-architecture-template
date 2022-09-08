@@ -2,11 +2,22 @@
 
 public class Artist
 {
-    public Guid Id { get; set; }
+    public Artist(string name, string overview, DateOnly formed, string location)
+    {
+        Id = Guid.NewGuid();
+        Name = name;
+        Overview = overview;
+        Formed = formed;
+        Location = location;
+    }
     
-    public string? Overview { get; set; }
+    public Guid Id { get; }
     
-    public DateOnly? Formed { get; set; }
+    public string Name { get; }
     
-    public string? Location { get; set; }
+    public string Overview { get; }
+    
+    public DateOnly Formed { get; }
+    
+    public string Location { get; }
 }
