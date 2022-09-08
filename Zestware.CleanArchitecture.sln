@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zestware.Host", "src\Zestware.Host\Zestware.Host.csproj", "{1C1BB1A2-62EB-4483-9104-7EBB56CA11DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{419BC817-B727-4ADB-BCDF-CF455E3D3B9F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{E97B705E-C50F-434A-A97B-7CFF140AFEE3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zestware.Application", "src\Zestware.Application\Zestware.Application.csproj", "{7F798734-B5A4-4AB2-825F-84B2B228AE5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{447A6D6D-3418-450D-A890-AAF2890E3D80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9E59D8C5-A0D5-4A6A-B22E-721BBB2595F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zestware.Domain", "src\Zestware.Domain\Zestware.Domain.csproj", "{3FACC880-0115-45E6-B036-4AFE568559D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zestware.Application.UnitTests", "tests\Zestware.Application.UnitTests\Zestware.Application.UnitTests.csproj", "{7B5C0AC9-5920-4F3D-9C4B-0093CDEAB9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zestware.Infrastructure", "src\Zestware.Infrastructure\Zestware.Infrastructure.csproj", "{0F9EAE5D-1DDA-493B-8791-F9D6AC2C31B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C1BB1A2-62EB-4483-9104-7EBB56CA11DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1BB1A2-62EB-4483-9104-7EBB56CA11DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1BB1A2-62EB-4483-9104-7EBB56CA11DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1BB1A2-62EB-4483-9104-7EBB56CA11DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F798734-B5A4-4AB2-825F-84B2B228AE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F798734-B5A4-4AB2-825F-84B2B228AE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F798734-B5A4-4AB2-825F-84B2B228AE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F798734-B5A4-4AB2-825F-84B2B228AE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FACC880-0115-45E6-B036-4AFE568559D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FACC880-0115-45E6-B036-4AFE568559D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FACC880-0115-45E6-B036-4AFE568559D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FACC880-0115-45E6-B036-4AFE568559D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5C0AC9-5920-4F3D-9C4B-0093CDEAB9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5C0AC9-5920-4F3D-9C4B-0093CDEAB9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5C0AC9-5920-4F3D-9C4B-0093CDEAB9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5C0AC9-5920-4F3D-9C4B-0093CDEAB9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9EAE5D-1DDA-493B-8791-F9D6AC2C31B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9EAE5D-1DDA-493B-8791-F9D6AC2C31B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9EAE5D-1DDA-493B-8791-F9D6AC2C31B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9EAE5D-1DDA-493B-8791-F9D6AC2C31B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F798734-B5A4-4AB2-825F-84B2B228AE5B} = {447A6D6D-3418-450D-A890-AAF2890E3D80}
+		{1C1BB1A2-62EB-4483-9104-7EBB56CA11DE} = {447A6D6D-3418-450D-A890-AAF2890E3D80}
+		{3FACC880-0115-45E6-B036-4AFE568559D0} = {447A6D6D-3418-450D-A890-AAF2890E3D80}
+		{7B5C0AC9-5920-4F3D-9C4B-0093CDEAB9CE} = {9E59D8C5-A0D5-4A6A-B22E-721BBB2595F9}
+		{0F9EAE5D-1DDA-493B-8791-F9D6AC2C31B0} = {447A6D6D-3418-450D-A890-AAF2890E3D80}
+	EndGlobalSection
+EndGlobal
